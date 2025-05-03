@@ -79,6 +79,7 @@ Por fim, responda as questões abaixo no seu `fork`:
 1. Repositório selecionado: https://github.com/facebook/react
 
 2. Gráfico selecionado: Functions
+
 ![Gráfico de evolução de Functions no React](functions.png)
   
 3. Explicação: 
