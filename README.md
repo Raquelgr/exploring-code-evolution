@@ -76,11 +76,29 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: https://github.com/facebook/react
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
+2. Gráfico selecionado: Functions
+![img.png](img.png)
   
-3. Explicação: <EXPLICACAO_AQUI>
+3. Explicação: 
 
+Como o React é uma biblioteca que foi lançada em 2013, decidi aumentar o tempo de análise para abranger toda sua história, usando o comando:
+```
+gitevo --from-year 2013 --to-year 2025 -r js https://github.com/facebook/react
+```
+Analisando o gráfico "Functions", é possível observar como o uso de diferentes tipos de funções evoluiu no React durante seus 12 anos de existência.
+
+Olhando para este gráfico, é possível ver claramente como o React evoluiu através das tendências de programação:
+- Quando o React começou em 2013, os desenvolvedores usavam principalmente o estilo clássico de funções JavaScript. Com o tempo, é possível notar uma mudança clara para estilos mais modernos.
+- A grande transformação acontece em 2017, quando as arrow functions começam a dominar o código. Isso mostra como o React começou a adotar totalmente as práticas modernas de JavaScript.
+- Entre 2017 e 2022, nota-se um crescimento constante e saudável, com as arrow functions se tornando cada vez mais populares, enquanto as funções tradicionais vão sendo menos utilizadas.
+
+Por usar o React há alguns anos pude notar essa transição acontecendo em tempo real a medida que novas ferramentas foram sendo desenvolvidas o código foi ficando cada vez mais moderno, o uso das arrow functions facilita muito a leitura de certas funções.
+
+O aspecto mais intrigante em todos os gráficos foi uma grande queda entre 2023 e 2024. Essa queda aconteceu após o lançamento do React 18 (2022), sugerindo que a equipe estava trabalhando em uma grande reestruturação do código, talvez dividindo-o em pedaços menores ou em novos repositórios.
+Então em 2025, nota-se novamente um aumento, com números ainda maiores que antes. As arrow functions se tornam extremamente dominantes, mostrando que o React continuou adotando práticas modernas após a reestruturação.
+
+A análise com o GitEvo é muito interessante pois revela como o React não apenas segue, mas também ajuda a estabelecer as melhores práticas de desenvolvimento JavaScript. 
 
 
