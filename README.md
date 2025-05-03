@@ -79,7 +79,7 @@ Por fim, responda as questões abaixo no seu `fork`:
 1. Repositório selecionado: https://github.com/facebook/react
 
 2. Gráfico selecionado: Functions
-![img.png](img.png)
+![img.png](functions.png)
   
 3. Explicação: 
 
